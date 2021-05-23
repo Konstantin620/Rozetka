@@ -1,0 +1,233 @@
+/*border: 0*/
+a {
+    color: #3e77aa;
+    /*letter-spacing:1px ;*/
+    display: block;
+    margin: 5px 0;
+}
+
+
+.title {
+    background: rgb(34, 31, 31);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 0;
+}
+
+.title .buttonUniquate {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: rgb(34, 31, 31);
+    margin:20px 40px;
+    transform: rotate(91deg);
+    font-size: 20px;
+
+}
+
+.title .img {
+    height: 70px;
+    width: 70px;
+    background: url("bf3f923f9bef719b1532c39cefcc9c74.jpg");
+}
+
+h1 {
+    color: rgb(70, 26, 123);
+    font-size: 50px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.title .button1 button {
+    width: 60px;
+    height: 35px;
+    background: rgb(78, 76, 76);
+    color: white;
+    padding-bottom: 40px;
+    margin: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.title .search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.title form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.title .search .imgSearch {
+    background: white;
+    height: 20px;
+    width: 330px;
+
+}
+.title .search button{
+    margin: 20px 0;
+
+}
+.title .button{
+    margin-left: 100px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    outline: 0 !important;
+
+}
+.title .button button{
+    background: rgb(34, 31, 31);
+    color: white;
+}
+.title .button .unique {
+    margin-left: 40px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.column .list{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+}
+.list ul li{
+    background: white;
+    color: deepskyblue;
+    margin: 10px 0;
+}
+.arrow button{
+    margin: 2px 0;
+    padding: 2px 2px;
+    font-size: 14px;
+    background: white;
+    border: 0
+
+}
+.arrow .uniquE{
+    margin-top: 40px;
+}
+.list a:active {
+    color: red;
+}
+
+.list a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.list a span {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+
+}
+.column .list .unique {
+    margin-top: 25px;
+}
+
+.column .welcome {
+    background: rgb(244, 244, 244);
+}
+
+.column .welcome h2 {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
+
+.column .welcome p {
+    font-size: 11px;
+    text-align: center;
+}
+
+.column .welcome button {
+    background: blue;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 10px 0;
+    border-radius: 10%;
+}
+.information {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.slider {
+    width: 100%;
+    height: 350px;
+    background: url("BMV.jpg");
+    margin-top: 20px;
+    background-size: cover;
+
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .btn {
+    width: 50px;
+    height: 50px;
+    background: rgba(220, 220, 220, .3);
+    border-radius: 3px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.slider .btn_left {
+    left: 20px;
+}
+
+.slider .btn_right {
+    right: 20px;
+}
+
+.prod .products .cardList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px 20px;
+
+}
+
+.prod .products h2 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+
+.prod .products .img {
+    background: black;
+    width: 120px;
+    height: 170px;
+    position: center;
+    border-radius: 5%;
+}
+
+.prod .products .cardList em {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
