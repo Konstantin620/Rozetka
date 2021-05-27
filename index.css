@@ -5,12 +5,10 @@ a {
     display: block;
     margin: 5px 0;
 }
-
-
 .title {
     background: rgb(34, 31, 31);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 3fr 1fr 1fr ;
     padding: 10px 0;
 }
 
@@ -22,31 +20,22 @@ a {
     margin:20px 40px;
     transform: rotate(91deg);
     font-size: 20px;
-
+    border:none;
 }
 
-.title .img {
-    height: 70px;
-    width: 70px;
-    background: url("bf3f923f9bef719b1532c39cefcc9c74.jpg");
+.title img{
+    margin: auto;
 }
 
-h1 {
-    color: rgb(70, 26, 123);
-    font-size: 50px;
-    font-weight: 900;
-    margin: 10px;
-}
 
 .title .button1 button {
-    width: 60px;
-    height: 35px;
     background: rgb(78, 76, 76);
     color: white;
-    padding-bottom: 40px;
+    padding: 10px 10px;
     margin: 10px 20px;
     text-align: center;
     font-size: 15px;
+
 
 }
 .title .search{
@@ -96,6 +85,9 @@ h1 {
     background: white;
     color: deepskyblue;
     margin: 10px 0;
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 .arrow button{
     margin: 2px 0;
@@ -112,8 +104,8 @@ h1 {
     color: red;
 }
 
-.list a:hover {
-    color: aqua;
+.list li:hover * {
+    color: tomato;
     text-decoration: underline;
 }
 
@@ -192,12 +184,13 @@ h1 {
 }
 
 .prod .products .cardList {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 10px 20px;
 
 }
-
+.prod .products .cardList .block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .prod .products h2 {
     font-weight: 700;
     font-size: 20px;
@@ -205,16 +198,20 @@ h1 {
 
 }
 
-.prod .products .img {
-    background: black;
+.prod .products img {
     width: 120px;
     height: 170px;
     position: center;
     border-radius: 5%;
 }
-
+.prod .products p{
+    font-size: 10px;
+}
 .prod .products .cardList em {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(248, 65, 148);
+
 }
 
 
