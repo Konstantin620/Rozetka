@@ -167,12 +167,26 @@ a {
     padding: 24px 0;
 }
 .list ul li{
+    padding: 0 12px;
     background: white;
     color: deepskyblue;
     margin: 10px 0;
     display:grid;
     grid-template-columns: 1fr auto;
     align-items: center;
+}
+.list a i, .linkUn i{
+    text-align: center;
+}
+.list a, .linkUn a {
+    display:grid;
+    grid-template-columns: 30px 1fr;
+}
+.linkUn{
+    padding: 7px 16px;
+}
+.linkUn p{
+    display: inline-block;
 }
 .arrow button{
     margin: 2px 0;
@@ -223,12 +237,12 @@ a {
 }
 
 .column .welcome button {
-    background: rgb(64, 150, 227);
+    background-color: #3e77aa;
     color: white;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    padding: 1px 16px;
+    padding: 12px 16px;
     border-radius: 5px;
     border: none;
     margin: 10px 0;
@@ -249,6 +263,78 @@ a {
     font-size: 14px;
 
 }
+.social h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(121, 120, 120);
+    margin-bottom: 12px;
+}
+.social .pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.social{
+    padding: 16px 24px;
+}
+
+.social .pictures .imgFace{
+    width: 40px;
+    height: 40px;
+    background-color: #506098;
+    border-radius: 50%;
+    position: relative;
+}
+.social .pictures .imgTwit{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    background-color: #76c9fd;
+    border-radius: 50%;
+    position: relative;
+}
+.social .pictures .imgYou{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    background: #e90000;
+    border-radius: 50%;
+    position: relative;
+}
+.social .pictures .imgInst{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    background: linear-gradient(
+            45deg
+            ,#ffb700 14.65%,#ff6800 31.68%,#cb217d 54.72%,#7e00aa 85.35%);
+    border-radius: 50%;
+    position: relative;
+}
+.social .pictures .imgVib{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    background-color: #7d3daf;
+    border-radius: 50%;
+    position: relative;
+}
+.social .pictures .imgTeleg{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    background-color: #08c;
+    border-radius: 50%;
+    position: relative;
+}
+.social .pictures i{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
 .slider {
     width: 100%;
     height: 350px;
@@ -264,7 +350,6 @@ a {
     height: 50px;
     background: rgba(220, 220, 220, .3);
     border-radius: 3px;
-    padding: 10px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -280,7 +365,10 @@ a {
 .slider .btn_right {
     right: 20px;
 }
-
+.prod{
+    padding-left: 40px;
+    padding-top: 40px;
+}
 .prod .products .cardList {
     margin: 10px 20px;
     display: grid;
@@ -293,6 +381,21 @@ a {
     border-top: none;
     border-left: none;
     padding: 16px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.prod .card .price *{
+    display: block;
+}
+.prod .card p{
+    text-decoration: line-through;
+}
+.prod .products a:hover {
+    color: red;
+}
+.prod .products a{
+    font-size: 14px;
+    color: black;
 }
 .prod .products i{
     color: tomato;
@@ -303,7 +406,7 @@ a {
 
 }
 .prod .products h2 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     padding-top: 5px;
 
@@ -320,6 +423,7 @@ a {
 }
 .prod .products p{
     font-size: 10px;
+    color: #a6a5a5;
 }
 .prod .products .cardList em {
     font-weight: 500;

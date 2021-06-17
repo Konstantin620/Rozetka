@@ -1,13 +1,14 @@
-const heart= [...document.getElementsByClassName("fa-heart")];
-console.log(heart);
+function add_like() {
+    const heart = [...document.getElementsByClassName("fa-heart")];
 
-heart.forEach((item)=>{
-    item.addEventListener("click",()=>{
-       changeHeart(item);
+    heart.forEach((item) => {
+        item.addEventListener("click", () => {
+            changeHeart(item);
+        })
     })
-})
-function changeHeart(e){
-    e.classList.toggle("fas");
-    e.classList.toggle("far");
+
+    function changeHeart(e) {
+        e.classList.toggle("fas");
+        e.classList.toggle("far");
+    }
 }
-card.forEach((item))
