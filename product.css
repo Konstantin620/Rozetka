@@ -1,0 +1,31 @@
+.panel .category_link *{
+    display: inline-block;
+}
+.panel .category_link i{
+    padding-left: 8px;
+    font-size: 14px;
+}
+.panel .category_link p{
+    font-weight: 400;
+    font-size: 14px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+.product_info {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+}
+
+
+
+
+
+.code *{
+    display: inline-block;
+}
+.code p{
+    color: #a6a5a5;
+}
